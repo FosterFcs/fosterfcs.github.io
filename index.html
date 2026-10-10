@@ -137,6 +137,16 @@ footer{margin:40px 0 0;padding:18px 0 96px;border-top:1px solid var(--line);font
   .grupo h2{font-size:1.45rem}
   .grupo header small{display:none}
 }
+
+/* celular: os 6 apps juntos, 2 por linha (sem separar por grupos) */
+@media (max-width:640px){
+  main.wrap{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;padding-top:40px}
+  .grupo,.grupo .apps{display:contents}
+  .grupo header{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+  .sobre,footer{grid-column:1/-1}
+  .sobre{margin-top:38px}
+  footer{margin-top:30px}
+}
 </style>
 </head>
 <body>
