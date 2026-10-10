@@ -119,6 +119,24 @@ footer{margin:40px 0 0;padding:18px 0 96px;border-top:1px solid var(--line);font
   .rev{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
   .rev.vis{opacity:1;transform:none}
 }
+
+/* celular: 2 colunas compactas */
+@media (max-width:640px){
+  .apps{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  .app{padding:14px 12px;border-radius:16px}
+  .app .cab{flex-direction:column;align-items:flex-start;gap:10px;margin:0 0 8px}
+  .ico{width:42px;height:42px;border-radius:12px}
+  .ico svg{width:22px;height:22px}
+  .app .tag{font-size:.58rem;letter-spacing:.05em;line-height:1.35}
+  .app h3{font-size:1.35rem}
+  .app p{font-size:.84rem;line-height:1.45;margin:0 0 12px}
+  .chips{display:none}
+  .app .pe{flex-direction:column;align-items:stretch;gap:8px}
+  .preco{align-self:flex-start;font-size:.7rem;padding:4px 9px;white-space:normal}
+  .app .bt.pri{flex:none;padding:10px;font-size:.88rem;border-radius:10px}
+  .grupo h2{font-size:1.45rem}
+  .grupo header small{display:none}
+}
 </style>
 </head>
 <body>
