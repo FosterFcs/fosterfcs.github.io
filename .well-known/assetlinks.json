@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "br.com.fosterconstrucoes.obras",
+      "sha256_cert_fingerprints": [
+        "BC:D6:A8:A9:A6:EC:63:4D:46:AA:6A:56:76:5F:A1:FC:91:7F:16:F6:1F:6D:1E:18:71:ED:50:28:14:ED:0A:A3"
+      ]
+    }
+  }
+]
